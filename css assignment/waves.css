@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imgmain{
+    background-image: url(photo/download_\(3\)-_aivbFtYU-transformed.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.imgmain .wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    /* height: 50vh; */
+    
+}
+.imgtext{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;  
+    padding: 190px;  
+}
+
+.imgtext :nth-child(1){
+
+    color: white;
+    letter-spacing: 3px;
+    font-size: 30px;    
+
+}
+
+.imgtext :nth-child(2){
+
+    color: white;
+    font-size: 20px;   
+
+}
+
+.team{
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+
+}
+
+.mem1 img{
+     height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -40px;  
+}
+
+.mem2 img{
+    height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   margin-top: 5px; 
+   position: absolute;
+   margin-top: 23px;
+
+
+}
+
+.mem3 img{
+    height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   margin-top: 40px;
+   position: absolute;
+
+
+   
+}
+
+
+.mem4 img{
+    height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   position: absolute;
+   margin-top: -35px;
+ 
+}
+
+
+
+.mem4 h3{
+    color: white;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -40px;
+    font-family: Arial, sans-serif;
+    letter-spacing: 2px;
+}
+
+.mem4 p{
+    color: white;
+    position: absolute;
+    margin-top: 75px;
+    margin-left: -18px;
+    font-family: Arial, sans-serif;
+    font-size: larger;
+}
+
+.mem5 img{
+    height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   position: absolute;
+   margin-top: -55px;
+
+}

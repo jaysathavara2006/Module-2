@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+
+      .nav{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+      }
+
+      .nav .head{
+        width: 30%;
+        padding: 20px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-size: 25px;
+      }
+
+      .nav .menu{
+        width: 70%; 
+        padding: 20px; 
+        background-color: rgb(255, 32, 81);
+        color: white;
+        text-align: center;
+        font-size: 25px;
+      }
+
+      .hero{
+        height: 400px;
+        width: 100%; 
+        padding: 180px; 
+        background-color: rgb(57, 85, 243);
+        color: white;
+        text-align: center;
+        font-size: 25px;
+      }
+
+      .sec3{
+        display: flex;
+      }
+
+      .main{
+        width: 50%; 
+        padding: 110px; 
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-size: 25px;
+      }
+
+      .space{
+        width: 25%; 
+        padding: 110px; 
+        background-color: white;
+        
+      }
+      
+      .imgmain{
+        width: 25%;
+      }
+
+      .img{
+        width: 100%; 
+        padding: 55px; 
+        background-color: rgb(141, 199, 223);
+        color: black;
+        text-align: center;
+        font-size: 25px;
+      }
+
+      .extra{
+        width: 100%; 
+        padding: 55px; 
+        background-color: rgb(88, 145, 113);
+        color: black;
+        text-align: center;
+        font-size: 25px;
+      }
+
+      .banner{
+        width: 100%; 
+        padding: 25px; 
+        background-color: rgb(216, 216, 33);
+        color: black;
+        text-align: center;
+        font-size: 25px;
+      }
+
+      @media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+        .nav{
+        width: 100%;
+        display: block;
+
+      }
+
+        .nav .head{
+        width: 100%;
+        padding: 20px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-size: 25px;
+      }
+
+      .nav .menu{
+        width: 30%; 
+        padding-bottom: 220px; 
+        background-color: rgb(255, 32, 81);
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        position: absolute;
+        top: 468px;
+        padding-top: 220px;
+       /* right: 738px; */
+
+      }
+
+      .hero{
+        height: 400px;
+        width: 100%; 
+        padding: 180px; 
+        background-color: rgb(57, 85, 243);
+        color: white;
+        text-align: center;
+        font-size: 25px;
+      }
+
+      .sec3{
+        display: flex;
+        flex-direction: column;
+          width: 70%;
+          position: absolute;
+          right: 0;
+      }
+
+      .main{
+        width: 100%; 
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        position: absolute;
+      }
+
+      .imgmain{
+        width: 100%;
+          /* height: 200px; */
+          display: flex;
+          position: absolute;
+          /* flex-direction: column; */
+          flex-direction: row-reverse;
+          top: 249px;
+      }
+
+      .sec3 .imgmain .extra{
+        width: 60%; 
+        padding: 55px; 
+        background-color: rgb(88, 145, 113);
+        color: black;
+        text-align: center;
+        font-size: 25px;
+      }
+
+      .img{
+        width: 40%; 
+        padding: 55px; 
+        background-color: rgb(141, 199, 223);
+        color: black;
+        text-align: center;
+        font-size: 25px;
+      }
+
+
+      .banner{
+        width: 70%; 
+        padding: 25px; 
+        background-color: rgb(216, 216, 33);
+        color: black;
+        text-align: center;
+        position: absolute;
+        font-size: 25px;
+        top: 857px;
+        right: 0px;
+      }
+
+    
+      }
+
+      @media only screen and (max-width: 767px) {
+        .nav{
+          width: 100%;
+          /* height: auto; */
+          display: flex;
+          flex-direction: column;
+        }
+        .nav .head{
+        width: 100%;
+        padding: 20px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-size: 25px;
+      }
+
+      .nav .menu{
+        width: 100%; 
+        padding: 20px; 
+        background-color: rgb(255, 32, 81);
+        color: white;
+        text-align: center;
+        font-size: 25px;
+
+      }
+
+      .hero{
+        /* height: 0px; */
+        width: 100%;
+        /* padding: -100px; */
+        background-color: rgb(57, 85, 243);
+        color: white;
+        text-align: center;
+        font-size: 25px;
+      }
+
+      .sec3{
+        display: flex;
+        flex-direction: column;
+      }
+
+      .main{
+        width: 100%; 
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        position: absolute;
+      }
+    
+        .banner{
+        width: 100%; 
+        padding: 25px; 
+        background-color: rgb(216, 216, 33);
+        color: black;
+        text-align: center;
+        position: absolute;
+        top: 785px;
+        }
+
+        .imgmain{
+         width: 100%;
+          /* height: 200px; */
+          display: flex;
+          position: absolute;
+          /* flex-direction: column; */
+          flex-direction: column-reverse;
+          top: 860px;
+      }
+
+
+
+
+      }
+
+      
+      
+
+
+  </style>
+</head>
+<body>
+
+
+  <div class="nav">
+    <div class="head">HEADER</div>
+    <div class="menu">MENU</div>
+  </div>
+
+  <div class="hero">HERO</div>
+
+  <div class="sec3">
+    <div class="main">MAIN</div>
+    <div class="space"></div>
+    <div class="imgmain">
+      <div class="img">IMAGE</div>
+      <div class="extra">EXTRA</div>
+    </div>
+  </div>
+
+  <div class="banner">BANNER</div>
+
+</body>
+</html>
